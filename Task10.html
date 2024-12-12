@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Probability Simulation</title>
 </head>
 <body>
-$END$
+    <h1>Dice Probability Simulation</h1>
+    <label for="numDice">Enter the number of dice:</label>
+    <input type="number" id="numDice" min="1" required>
+    <br>
+    <label for="sum">Enter the sum you're interested in:</label>
+    <input type="number" id="sum" required>
+    <br>
+    <button onclick="calculateProbability()">Calculate Probability</button>
+    <p id="result"></p>
+
+    <script>
+        function calculateProbability() {
+            const numDice = parseInt(document.getElementById('numDice').value);
+            const sum = parseInt(document.getElementById('sum').value);
+            const resultElement = document.getElementById('result');
+
+            // Check if inputs are valid
+            if (isNaN(numDice) || isNaN(sum) || numDice < 1 || sum < numDice || sum > numDice * 6) {
+                resultElement.textContent = "Please enter valid values.";
+                return;
+            }
+
+            let successfulRolls = 0;
+            const totalRolls = 10000;
+
+            // Simulate rolling the dice
+            for (let i = 0; i < totalRolls; i++) {
+                let currentSum = 0;
+                for (let j = 0; j < numDice; j++) {
+                    // Roll a single die (random number between 1 and 6)
+                    currentSum += Math.floor(Math.random() * 6) + 1;
+                }
+
+                // Check if the rolled sum equals the target sum
+                if (currentSum === sum) {
+                    successfulRolls++;
+                }
+            }
+
+            // Calculate the probability
+            const probability = (successfulRolls / totalRolls) * 100;
+
+            // Display the result with a fixed number of decimals
+            resultElement.textContent = `Probability to get sum ${sum} with ${numDice} dice is ${probability.toFixed(2)}%`;
+        }
+    </script>
 </body>
 </html>

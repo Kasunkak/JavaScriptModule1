@@ -1,28 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ac69a5d-45ab-4189-bd63-257bc17ec52a" name="Changes" comment="" />
+    <list default="true" id="3ac69a5d-45ab-4189-bd63-257bc17ec52a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task10.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task7.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task8.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task9.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task9.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Kasunkak/JavaScriptModule1.git",
+    "accountId": "051223b2-f496-40b0-8c7a-a488997c3447"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2q4ydkVmY1pmZyzsZMGuZm45nha" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\PycharmProjects\JavaScriptModule1\task1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -39,8 +93,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733936232140</updated>
-      <workItem from="1733936245674" duration="2000" />
+      <workItem from="1733936245674" duration="6061000" />
+      <workItem from="1734025649266" duration="500000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <script>
+        function rollDice() {
+            // Get the number of dice from user input
+            const numRolls = parseInt(document.getElementById("numDice").value);
+            const resultDiv = document.getElementById("result");
+
+            // Clear previous results
+            resultDiv.innerHTML = "";
+
+            if (isNaN(numRolls) || numRolls <= 0) {
+                resultDiv.innerHTML = "Please enter a positive integer.";
+                return;
+            }
+
+            let totalSum = 0;
+            resultDiv.innerHTML += "<p>Rolling dice...</p>";
+
+            for (let i = 0; i < numRolls; i++) {
+                const roll = Math.floor(Math.random() * 6) + 1;
+                resultDiv.innerHTML += `<p>Roll ${i + 1}: ${roll}</p>`;
+                totalSum += roll;
+            }
+
+            resultDiv.innerHTML += `<p><strong>The total sum of the rolls is: ${totalSum}</strong></p>`;
+        }
+    </script>
 </head>
 <body>
-$END$
+    <h1>Dice Roller</h1>
+    <p>Enter the number of dice to roll:</p>
+    <input type="number" id="numDice" min="1" />
+    <button onclick="rollDice()">Roll Dice</button>
+    <div id="result"></div>
 </body>
 </html>
